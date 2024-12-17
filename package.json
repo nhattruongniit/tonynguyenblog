@@ -1,0 +1,20 @@
+{
+  "name": "@nhattruongniit/portfolio",
+  "description": "nhattruongniit's blog template using Astro 5",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.0.9"
+  },
+  "engines": {
+    "node": "^18.13.0 || ^20.9.0",
+    "npm": ">=8.19.3"
+  }
+}
