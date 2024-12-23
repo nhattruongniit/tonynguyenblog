@@ -6,8 +6,9 @@ import type { iconPaths } from './IconPaths';
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
 	{ label: 'Home', href: '/' },
-	{ label: 'Blog', href: '/blog' },
 	{ label: 'Course', href: '/course' },
+	{ label: 'Blog', href: '/blog' },
+	{ label: 'About', href: '/about' },
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
@@ -29,7 +30,7 @@ const isCurrentPage = (href: string) => {
 <nav>
 	<div class="menu-header">
 		<a href="/" class="site-title">
-			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
+			<img src="/assets/logo.png" alt="Tony Nguyen" width="40" height="40" />
 			Tony Nguyen
 		</a>
 		<menu-button>
@@ -288,7 +289,7 @@ const isCurrentPage = (href: string) => {
 			border-radius: 999rem;
 			border: 0;
 			padding: 0.5rem 0.5625rem;
-			background: radial-gradient(var(--gray-900), var(--gray-800) 150%);
+			/* background: radial-gradient(var(--gray-900), var(--gray-800) 150%); */
 			box-shadow: var(--shadow-md);
 		}
 
@@ -311,8 +312,8 @@ const isCurrentPage = (href: string) => {
 
 		.link:hover,
 		.link:focus {
-			color: var(--gray-100);
-			background-color: var(--accent-subtle-overlay);
+			/* color: var(--gray-100);
+			background-color: var(--accent-subtle-overlay); */
 		}
 
 		.link[aria-current='page'] {

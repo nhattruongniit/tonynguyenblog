@@ -5,7 +5,6 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 // Component Imports
-import CallToAction from '../components/CallToAction.astro';
 import Grid from '../components/Grid.astro';
 import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
@@ -15,23 +14,28 @@ import PortfolioPreview from '../components/PortfolioPreview.astro';
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
+import Card from '../components/Card.astro';
 
-// Content Fetching: List four most recent work projects
-const projects = (await getCollection('work'))
-	.sort((a: any, b: any) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
-	.slice(0, 4);
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/basics/astro-components/
+// data
+const hotBlogs = [
+  {
+    id: 1,
+    img: '/assets/blog/logo-react-structure-2025.jpeg',
+    title: 'React Project Structure 2025',
+		img_alt: 'React Project Structure 2025',
+    href: 'react-project-structure-2025'
+  },
+	{}
+];
 ---
 
 <BaseLayout>
-	<div class="stack gap-20 lg:gap-48">
+	<div class="stack	gap-20">
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
 					title="Hello, my name is Tony Nguyen"
-					tagline="I'm a Senior Front-End Developer with over 10 years of experiences in building high-performance web applications. Proven track record in leadings team, optimizing performance, and mentoring."
+					tagline="I'm an Lead Front-End Developer with over 10 years of experiences in building high-performance web applications. Proven track record in leadings team, optimizing performance, and mentoring."
 					align="start"
 				>
 					<div class="roles">
@@ -42,7 +46,7 @@ const projects = (await getCollection('work'))
 				</Hero>
 
 				<img
-					alt="Tony Nguyen smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Tony Nguyen smiling in a green plaid shirt and tortoise shell glasses"
 					width="480"
 					height="620"
 					src="/assets/portrait.jpg"
@@ -52,8 +56,23 @@ const projects = (await getCollection('work'))
 			<Skills />
 		</div>
 
-		<main class="wrapper stack gap-20 lg:gap-48">
-			<section class="section with-background with-cta">
+		<main class="wrapper stack lg:gap-[80px]">
+			<section class="with-background">
+				<header class="section-course stack gap-2 lg:gap-4">
+					<h3>My course</h3>
+					<p>
+						Welcome to my comprehensive <b>React course</b>, designed for aspiring developers ready to 
+						build dynamic and responsive web applications. With hands-on projects, industry insights, 
+						and expert mentorship, you'll master the skills to excel in modern Front-End development. 
+					</p>
+				</header>
+
+				<article class="mt-10">
+					<Card />
+				</article>
+			</section>
+
+			<section class="with-background">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>My blog</h3>
 					<p>
@@ -62,23 +81,16 @@ const projects = (await getCollection('work'))
 					</p>
 				</header>
 
-				<div class="gallery">
+				<div class="gallery mt-20">
 					<Grid variant="offset">
 						{
-							projects.map((project: any) => (
+							hotBlogs.map((blog: any) => (
 								<li>
-									<PortfolioPreview project={project} />
+									<PortfolioPreview blog={blog} />
 								</li>
 							))
 						}
 					</Grid>
-				</div>
-
-				<div class="cta">
-					<CallToAction href="/work/">
-						View All
-						<Icon icon="arrow-right" size="1.2em" />
-					</CallToAction>
 				</div>
 			</section>
 		</main>
@@ -173,6 +185,14 @@ const projects = (await getCollection('work'))
 
 	.section-header h3 {
 		font-size: var(--text-2xl);
+	}
+
+	.section-course {
+		justify-self: center;
+		text-align: center;
+		max-width: 100ch;
+		font-size: var(--text-md);
+		color: var(--gray-300);
 	}
 
 	@media (min-width: 50em) {

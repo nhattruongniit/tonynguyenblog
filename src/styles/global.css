@@ -71,6 +71,11 @@
 
 	/* Transitions */
 	--theme-transition: 0.2s ease-in-out;
+
+	/* tailwind */
+	--tw-ring-offset-shadow: 0 0 #0000;
+	--tw-ring-shadow: 0 0 #0000;
+	--tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1);
 }
 
 :root.theme-dark {
@@ -89,7 +94,7 @@
 	--gray-999: #090b11;
 
 	--accent-light: #1c0056;
-	--accent-regular: #01be96;
+	--accent-regular: #7611a6;
 	--accent-dark: #c561f6;
 	--accent-overlay: hsla(280, 89%, 67%, 0.33);
 	--accent-subtle-overlay: hsla(281, 81%, 36%, 0.33);
@@ -311,4 +316,17 @@ h5 {
 	.ul-skill {
 		grid-template-columns: repeat(8, 1fr);
 	}
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.blog-disc {
+	list-style-type: disc;
+	margin-left: 2rem;
+}
+
+.blog-disc li {
+	margin-bottom: 1rem;
 }
