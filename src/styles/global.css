@@ -330,3 +330,8 @@ h5 {
 .blog-disc li {
 	margin-bottom: 1rem;
 }
+
+.heading-5 {
+	font-size: 1.5rem !important;
+	font-weight: 600;
+}

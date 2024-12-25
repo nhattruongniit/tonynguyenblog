@@ -1,12 +1,11 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: 'React Project Structure 2025'
-pubDate: 2025-01-02
+publishDate: 2025-01-02
 description: 'Before web discuss this article. I would like to mention a few things. All of these structure folder will inside “src” folder. Besides, you should be know react basics.'
 author: 'Tony Nguyen'
-image:
-  url: '/assets/blog/logo-react-structure-2025.jpeg'
-  alt: 'React Project Structure 2025'
+img: '/assets/blog/logo-react-structure-2025.jpeg'
+img_alt: 'React Project Structure 2025'
 tags: ["react"]
 ---
 

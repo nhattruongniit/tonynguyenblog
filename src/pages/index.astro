@@ -1,6 +1,4 @@
 ---
-import { getCollection } from 'astro:content';
-
 // Layout import — provides basic page elements: <head>, <nav>, <footer> etc.
 import BaseLayout from '../layouts/BaseLayout.astro';
 
@@ -16,17 +14,10 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
 import Card from '../components/Card.astro';
 
+import { getBlogWorks } from '../utils/blog';
+
 // data
-const hotBlogs = [
-  {
-    id: 1,
-    img: '/assets/blog/logo-react-structure-2025.jpeg',
-    title: 'React Project Structure 2025',
-		img_alt: 'React Project Structure 2025',
-    href: 'react-project-structure-2025'
-  },
-	{}
-];
+const blogWorks = (await getBlogWorks()).slice(0, 4);
 ---
 
 <BaseLayout>
@@ -84,7 +75,7 @@ const hotBlogs = [
 				<div class="gallery mt-20">
 					<Grid variant="offset">
 						{
-							hotBlogs.map((blog: any) => (
+							blogWorks.map((blog) => (
 								<li>
 									<PortfolioPreview blog={blog} />
 								</li>
