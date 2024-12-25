@@ -2,8 +2,8 @@ import { getCollection } from 'astro:content';
 import type { BlogWork } from '../types';
 
 export async function getBlogWorks(): Promise<BlogWork[]> {
-  const works = await getCollection('work');
-  return works.map((entry: any) => {
+  const blogs = await getCollection('blog');
+  return blogs.map((entry: any) => {
     return {
       id: entry.id,
       title: entry.data.title,

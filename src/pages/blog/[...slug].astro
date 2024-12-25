@@ -8,8 +8,8 @@ import Icon from '../../components/Icon.astro';
 import ContactCTA from '../../components/ContactCTA.astro';
 
 export async function getStaticPaths() {
-	const work = await getCollection('work');
-	return work.map((entry) => ({
+	const blogs = await getCollection('blog');
+	return blogs.map((entry) => ({
 		params: { slug: entry.id },
 		props: { entry },
 	}));
