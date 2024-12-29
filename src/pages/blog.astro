@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-import ContactCTA from '../components/ContactCTA.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
 import Hero from '../components/Hero.astro';
 import Grid from '../components/Grid.astro';
@@ -21,7 +20,7 @@ const blogWorks = await getBlogWorks();
 			<Hero
 				title="My Blog"
 				tagline="A collection of my thoughts and experiences"
-				align="start"
+				align="center"
 			/>
 			<Grid variant="offset">
 				{
@@ -33,6 +32,5 @@ const blogWorks = await getBlogWorks();
 				}
 			</Grid>
 		</main>
-		<ContactCTA />
 	</div>
 </BaseLayout>

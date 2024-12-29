@@ -335,3 +335,18 @@ h5 {
 	font-size: 1.5rem !important;
 	font-weight: 600;
 }
+
+.content {
+	max-width: 95ch;
+	margin-inline: auto;
+}
+
+blockquote {
+	font-size: var(--text-lg);
+	font-family: var(--font-brand);
+	font-weight: 600;
+	line-height: 1.1;
+	padding-inline-start: 1.5rem;
+	border-inline-start: 0.25rem solid var(--accent-dark);
+	color: var(--gray-0);
+}

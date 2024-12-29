@@ -1,0 +1,123 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import Gallery from '../components/Gallery.astro';
+---
+
+<BaseLayout title="About me" description="Tony Nguyen | Front End React Developer">
+	<div class="stack gap-20">
+		<div class="stack gap-15">
+			<main class="wrapper about">
+        <div class="about_hero stack gap-4">
+          <div class="stack gap-2">
+            <h1 class="title">About Me</h1>
+            <p class="about_social">
+              Ho Chi Minh City, Vietnam | 
+                <a href="https://www.facebook.com/nhattruongniit" target="_blank"> Facebook</a> | 
+                <a href="https://www.linkedin.com/in/truong-nguyen-7898834b/" target="_blank"> Linkedin</a> | 
+                <a href="https://github.com/nhattruongniit" target="_blank"> Github</a>
+            </p>
+            <p class="tagline mt-4">I'm a front-end developer with a passion for creating beautiful and functional user interfaces. 
+              I have experience working with React, Typescript/Javascript and Tailwind CSS. I'm always looking to learn new technologies and improve my skills.
+            </p>
+          </div>
+          <img
+            width="1553"
+            height="873"
+            src="/assets/about-me.png"
+            alt="Tony Nguyen at work with a colleague"
+          />
+        </div>
+        <div class="content mt-12 mb-8 text-center">
+					As an active member of the tech community, I enjoy contributing to community-driven initiatives 
+          that empower individuals to achieve their goals in the field of web development. Whether it's guiding 
+          someone on their first project or refining advanced concepts, I'm committed to making learning accessible and enjoyable for all.
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <Gallery 
+            title="Mentor React"
+            alt="Mentor React"
+            src="/assets/community/mentor-react.jpg"
+          />
+          <Gallery 
+            title="Mentor Advance Javascript"
+            alt="Mentor Advance Javascript"
+            src="/assets/community/mentor-advance-javascript.jpg"
+          />
+          <Gallery 
+            title="Mentor CSS Basic"
+            alt="Mentor CSS Basic"
+            src="/assets/community/mentor-css-basic.jpg"
+          />
+          <Gallery 
+            title="Mentor Front End"
+            alt="Mentor Front End"
+            src="/assets/community/mentor-frontend.jpg"
+          />
+          <Gallery 
+            title="Mentor HTML CSS"
+            alt="Mentor HTML CSS"
+            src="/assets/community/mentor-html-css.jpg"
+          />
+          <Gallery 
+            title="Mentor Javascript"
+            alt="Mentor Javascript"
+            src="/assets/community/mentor-javascript.jpg"
+          />
+          <Gallery 
+            title="Mentor CSS Table"
+            alt="Mentor CSS Table"
+            src="/assets/community/mentor-css-table.jpg"
+          />
+        </div>
+        
+			</main>
+		</div>
+
+    
+	</div>
+</BaseLayout>
+
+<style>
+  .about_hero {
+		font-size: var(--text-lg);
+		text-align: center;
+		width: 60ch;
+		margin: 0 auto;
+	}
+
+  .about_hero img {
+		width: 50ch;
+    margin: 0 auto;
+	}
+
+  .about_hero .tagline {
+    font-size: 1rem;
+  }
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+  section {
+		display: flex;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		font-size: 1.625rem;
+		color: var(--gray-0);
+    margin-right: 20px;
+	}
+
+  .about_social a {
+		color: var(--gray-400);
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+</style>
