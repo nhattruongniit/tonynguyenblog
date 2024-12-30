@@ -11,14 +11,21 @@ import ContactCTA from '../components/ContactCTA.astro';
 interface Props {
 	title?: string | undefined;
 	description?: string | undefined;
+	image?: string | undefined;
+	url?: string | undefined;
 }
 
-const { title, description } = Astro.props;
+const { title, description, image, url } = Astro.props;
 ---
 
 <html lang="en">
 	<head>
-		<MainHead title={title} description={description} />
+		<MainHead 
+			title={title} 
+			description={description} 
+			image={image}
+			url={url}
+		/>
 	</head>
 	<body>
 		<div class="stack backgrounds">
