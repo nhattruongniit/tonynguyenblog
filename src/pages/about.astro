@@ -7,7 +7,7 @@ import Gallery from '../components/Gallery.astro';
 <BaseLayout title="About me" description="Tony Nguyen | Front End React Developer">
 	<div class="stack gap-20">
 		<div class="stack gap-15">
-			<main class="wrapper about">
+			<main class="about">
         <div class="about_hero stack gap-4">
           <div class="stack gap-2">
             <h1 class="title">About Me</h1>
@@ -24,7 +24,7 @@ import Gallery from '../components/Gallery.astro';
           <img
             width="1553"
             height="873"
-            src="/assets/about-me.png"
+            src="/assets/about-me.webp"
             alt="Tony Nguyen at work with a colleague"
           />
         </div>
@@ -38,37 +38,37 @@ import Gallery from '../components/Gallery.astro';
           <Gallery 
             title="Mentor React"
             alt="Mentor React"
-            src="/assets/community/mentor-react.jpg"
+            src="/assets/community/mentor-react.webp"
           />
           <Gallery 
             title="Mentor Advance Javascript"
             alt="Mentor Advance Javascript"
-            src="/assets/community/mentor-advance-javascript.jpg"
+            src="/assets/community/mentor-advance-javascript.webp"
           />
           <Gallery 
             title="Mentor CSS Basic"
             alt="Mentor CSS Basic"
-            src="/assets/community/mentor-css-basic.jpg"
+            src="/assets/community/mentor-css-basic.webp"
           />
           <Gallery 
             title="Mentor Front End"
             alt="Mentor Front End"
-            src="/assets/community/mentor-frontend.jpg"
+            src="/assets/community/mentor-frontend.webp"
           />
           <Gallery 
             title="Mentor HTML CSS"
             alt="Mentor HTML CSS"
-            src="/assets/community/mentor-html-css.jpg"
+            src="/assets/community/mentor-html-css.webp"
           />
           <Gallery 
             title="Mentor Javascript"
             alt="Mentor Javascript"
-            src="/assets/community/mentor-javascript.jpg"
+            src="/assets/community/mentor-javascript.webp"
           />
           <Gallery 
             title="Mentor CSS Table"
             alt="Mentor CSS Table"
-            src="/assets/community/mentor-css-table.jpg"
+            src="/assets/community/mentor-css-table.webp"
           />
         </div>
         
@@ -84,6 +84,7 @@ import Gallery from '../components/Gallery.astro';
 		font-size: var(--text-lg);
 		text-align: center;
 		width: 60ch;
+    max-width: 100%;
 		margin: 0 auto;
 	}
 
@@ -120,4 +121,11 @@ import Gallery from '../components/Gallery.astro';
 		text-underline-offset: 0.25em;
 		transition: text-decoration-color var(--theme-transition);
 	}
+
+  .about {
+    width: 100%;
+    max-width: 83rem;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
 </style>

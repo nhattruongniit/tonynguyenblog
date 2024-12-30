@@ -4,7 +4,7 @@ title: 'Optimize Performance Web'
 publishDate: 2025-01-02
 description: 'Web Performance Optimization: Tips and Tools for Speeding Up Your Site'
 author: 'Tony Nguyen'
-img: '/assets/blog/logo-optimize-performance-web.png'
+img: '/assets/blog/logo-optimize-performance-web.webp'
 img_alt: 'Optimize Performance Web'
 tags: ["web"]
 ---

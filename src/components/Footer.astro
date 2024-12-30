@@ -4,12 +4,14 @@ const currentYear = new Date().getFullYear();
 ---
 
 <footer>
-	<div class="group">
-		<p class="flex items-center">
-			<span class="mr-1">Designed & Developed with <a href="https://astro.build/">Astro</a></span>
-			<Icon icon="rocket-launch" size="1.2em" />
-		</p>
-		<p>&copy; {currentYear} Tony Nguyen</p>
+	<div class="grow">
+		<div class="flex justify-center flex-col md:flex-row md:justify-start">
+			<div class="flex justify-center md:justify-start">
+				<span class="mr-1">Designed & Developed with</span>
+				<a href="https://astro.build/" class="flex">Astro <Icon icon="rocket-launch" size="1.2em" /></a>
+			</div>
+			<span class="ml-1">&copy; {currentYear} Tony Nguyen</span>
+		</div>
 	</div>
 	<p class="socials">
 		<a href="https://www.facebook.com/nhattruongniit" target="_blank"> Facebook</a>
