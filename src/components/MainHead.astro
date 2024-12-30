@@ -12,8 +12,8 @@ interface Props {
 const {
 	title = 'Tony Nguyen - Porfolio',
 	description = 'The porfolio site of Tony Nguyen',
-	image = '/assets/logo.png',
-	url = Astro.url.toString(),
+	image = 'https://www.tonynguyen.me/assets/portrait.webp',
+	url = 'https://www.tonynguyen.me/'
 } = Astro.props;
 ---
 
@@ -28,7 +28,10 @@ const {
 <meta property="og:description" content={description} />
 <meta property="og:image" content={image} />
 <meta property="og:url" content={url} />
+<meta property="og:site_name" content={title}>
 <meta property="og:type" content="website" />
+<meta property="og:country_name" content="Việt Nam">
+<meta property="og:locale" content="en_US">
 
 <link rel="icon" type="image/svg+xml" href="/assets/logo.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
