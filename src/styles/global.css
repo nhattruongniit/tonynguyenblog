@@ -287,7 +287,8 @@ h5 {
 
 @media (min-width: 300px) {
 	.ul-skill {
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
+		gap: 0px;
 		padding: 20px 0;
 	}
 }
