@@ -76,7 +76,7 @@ const blogWorks = (await getBlogWorks()).slice(0, 4);
 						{
 							blogWorks.map((blog) => (
 								<li>
-									<PortfolioPreview blog={blog} />
+									<PortfolioPreview href="blog" dataSource={blog} />
 								</li>
 							))
 						}

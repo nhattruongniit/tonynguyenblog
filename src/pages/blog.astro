@@ -27,7 +27,7 @@ const blogWorks = await getBlogWorks();
 				{
 					blogWorks.map((blog) => (
 						<li>
-							<PortfolioPreview blog={blog} />
+							<PortfolioPreview href="blog" dataSource={blog} />
 						</li>
 					))
 				}

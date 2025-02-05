@@ -1,12 +1,14 @@
 ---
 interface Props {
-	blog: any;
+	dataSource: any;
+	href: string;
 }
 
-const data = Astro.props?.blog;
+const data = Astro.props?.dataSource;
+const href = Astro.props?.href;
 ---
 
-<a class="card" href={`/blog/${data?.id}`}>
+<a class="card" href={`/${href}/${data?.id}`}>
 	<span class="title">{data?.title}</span>
 	<img src={data?.img} alt={data?.img_alt || ''} loading="lazy" decoding="async" />
 </a>
