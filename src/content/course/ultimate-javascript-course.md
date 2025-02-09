@@ -83,7 +83,7 @@ tags: ["web"]
   <h4 class="text-center my-8">Milestones for 1:1 Javascript Development Mentorship</h4>
   <div class="my-6 ml-3">
     💬 “Tony’s course is the best investment I’ve made in my coding journey. 
-    His personalized approach and real-world projects helped me understand React like never 
+    His personalized approach and real-world projects helped me understand Javascript like never 
     before.”<br />
   </div>
 </div>
