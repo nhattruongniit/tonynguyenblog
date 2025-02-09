@@ -22,6 +22,8 @@ const course = defineCollection({
 		tags: z.array(z.string()),
 		img: z.string(),
 		img_alt: z.string().optional(),
+		path: z.string(),
+		caption: z.string()
 	}),
 });
 

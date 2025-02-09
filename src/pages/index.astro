@@ -14,9 +14,11 @@ import Skills from '../components/Skills.astro';
 import Card from '../components/Card.astro';
 
 import { getBlogWorks } from '../utils/blog';
+import { getCourseWorks } from '../utils/course';
 
 // data
 const blogWorks = (await getBlogWorks()).slice(0, 4);
+const courseWorks = await getCourseWorks();
 ---
 
 <BaseLayout>
@@ -57,8 +59,13 @@ const blogWorks = (await getBlogWorks()).slice(0, 4);
 					</p>
 				</header>
 
-				<article class="mt-10">
-					<Card />
+				<article class="mt-10 flex gap-10">
+					{
+						courseWorks.map(course => (
+							<Card dataSource={course} />
+						))
+					}
+					
 				</article>
 			</section>
 

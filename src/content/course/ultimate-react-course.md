@@ -1,10 +1,12 @@
 ---
 title: 'Ultimate 1:1 React Course'
 publishDate: 2025-01-02
-description: 'Ultimate 1:1 React Tony Course'
+description: 'Tony Nguyen | Ultimate 1:1 React Tony Course'
 author: 'Tony Nguyen'
 img: '/assets/react-course.webp'
 img_alt: 'Ultimate React Tony Course'
+path: '/course/ultimate-react-course'
+caption: 'Become a React Developer. Learn React, Hooks, Redux, React Routing, Best Practices, and more!'
 tags: ["web"]
 ---
 <div class="text-center">🚀 Welcome to the Ultimate 1:1 React Development Course! 🚀</div>
