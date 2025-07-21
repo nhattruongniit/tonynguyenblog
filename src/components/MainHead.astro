@@ -10,8 +10,8 @@ interface Props {
 }
 
 const {
-	title = 'Tony Nguyen - Porfolio',
-	description = 'The porfolio site of Tony Nguyen',
+	title = 'Mentor Ultimate React Tony',
+	description = 'The portfolio site of Mentor Ultimate React Tony',
 	image = 'https://www.tonynguyen.me/assets/portrait.webp',
 	url = 'https://www.tonynguyen.me/'
 } = Astro.props;
@@ -33,7 +33,36 @@ const {
 <meta property="og:country_name" content="Việt Nam">
 <meta property="og:locale" content="en_US">
 
-<link rel="icon" type="image/svg+xml" href="/assets/logo.png" />
+<link rel="icon" type="image/svg+xml" href="/assets/logo.webp" />
+<link rel="icon" type="image/png" href="/assets/logo.webp" />
+<link rel="apple-touch-icon" href="/assets/logo.webp" />
+
+<link rel="manifest" href="/manifest.json" />
+
+<meta name="theme-color" content="#ffffff" />
+<meta name="msapplication-TileColor" content="#ffffff" />
+<meta name="msapplication-TileImage" content="/assets/logo.webp" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="application-name" content="Mentor Ultimate React Tony" />
+<meta name="apple-mobile-web-app-title" content="Mentor Ultimate React Tony" />
+<meta name="msapplication-tooltip" content="Mentor Ultimate React Tony" />
+<meta name="msapplication-starturl" content="/" />
+<meta name="msapplication-navbutton-color" content="#ffffff" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content="Mentor Ultimate React Tony" />
+<meta name="twitter:image" content={image} />
+<meta name="twitter:site" content="Mentor Ultimate React Tony" />
+<meta name="twitter:creator" content="Mentor Ultimate React Tony" />
+<meta name="twitter:domain" content="https://www.tonynguyen.me" />
+<meta name="twitter:url" content={url} />
+<meta name="twitter:app:name:iphone" content="Mentor Ultimate React Tony" />
+<meta name="twitter:app:name:ipad" content="Mentor Ultimate React Tony" />
+<meta name="twitter:app:name:googleplay" content="Mentor Ultimate React Tony" />
+
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
