@@ -64,7 +64,7 @@ tags: ["web"]
     🔹 Advanced topics: hooks, context API, and performance optimization. <br />
     🔹 How to fetch and display data using APIs. <br />
     🔹 Efficient state management and routing for multi-page apps. <br />
-    🔹 Modern deployment techniques to bring your apps live.
+    🔹 Codebase consolidation: Best practices for organizing and structuring with <b>Atomic Design</b>.
   </div>
 </div>
 
@@ -167,7 +167,7 @@ tags: ["web"]
       <li>Introduction React Router</li>
       <li>Route parameters and nested routes</li>
       <li>Types of Router</li>
-      <li>Authenticate Router</li>
+      <li>Authorization: Private Route, Public Route, Role Route.</li>
     </ul>
   </div>
 </div>
@@ -180,7 +180,6 @@ tags: ["web"]
     <ul class="blog-disc">
       <li>Introduction & Why you need State Management.</li>
       <li>Components of Redux: store, state, dispatch, actions,....</li>
-      <li>Debugger: Redux Devtool.</li>
       <li>Middleware: Redux Thunk.</li>
       <li>Performance redux: redux connect & redux hook</li>
     </ul>
@@ -195,7 +194,6 @@ tags: ["web"]
     <ul class="blog-disc">
       <li>Logger: Build Error Boundaries.</li>
       <li>Code Splitting & Lazy Loading.</li>
-      <li>Authorization: Private Route, Public Route, Role Route.</li>
       <li>Axios Interceptor: Access & Refresh Token</li>
       <li>Dynamic Layout & Components.</li>
     </ul>
@@ -204,20 +202,7 @@ tags: ["web"]
 
 <div class="mt-10">
   <blockquote class="heading-5">
-    Milestone 6: New Features in React 18 & 19
-  </blockquote>
-  <div class="my-6 ml-3">
-    <ul class="blog-disc">
-      <li>Automatic Batching.</li>
-      <li>New features, Concurrent Mode, Suspense, Transation APis, and more.	</li>
-      <li>New Hook: useTransition, useActionState, useOptimistic, etc...</li>
-    </ul>
-  </div>
-</div>
-
-<div class="mt-10">
-  <blockquote class="heading-5">
-    Milestone 7: Lighthouse & Web Performance Optimization
+    Milestone 6: Lighthouse & Web Performance Optimization
   </blockquote>
   <div class="my-6 ml-3">
     <ul class="blog-disc">
