@@ -4,6 +4,7 @@ export const IconKeys = {
   css: "css",
   javaScript: "javaScript",
   react: "react",
+  angular: "angular",
   astro: "astro",
   materialUi: "materialUi",
   nextjs: "nextjs",
@@ -26,6 +27,14 @@ export const IconKeys = {
 
 export const skills = [
   {
+    title: "React Js",
+    icon: IconKeys.react,
+  },
+  {
+    title: "Angular",
+    icon: IconKeys.angular,
+  },
+  {
     title: "Html",
     icon: IconKeys.html,
   },
@@ -38,6 +47,14 @@ export const skills = [
     icon: IconKeys.javaScript,
   },
   {
+    title: "TypeScript",
+    icon: IconKeys.typeScript,
+  },
+  {
+    title: "Redux Js",
+    icon: IconKeys.redux,
+  },
+  {
     title: "Astro",
     icon: IconKeys.astro,
   },
@@ -46,38 +63,12 @@ export const skills = [
     icon: IconKeys.tailwind,
   },
   {
-    title: "React Js",
-    icon: IconKeys.react,
-  },
-  {
-    title: "Git",
-    icon: IconKeys.git,
-  },
-
-  {
-    title: "Github",
-    icon: IconKeys.github,
-  },
-  {
     title: "Material UI",
     icon: IconKeys.materialUi,
-  },
-
-  {
-    title: "Redux Js",
-    icon: IconKeys.redux,
   },
   {
     title: "Styled Components",
     icon: IconKeys.styled,
-  },
-  {
-    title: "Node Js",
-    icon: IconKeys.nodejs,
-  },
-  {
-    title: "TypeScript",
-    icon: IconKeys.typeScript,
   },
   {
     title: "Radix UI",
@@ -86,6 +77,10 @@ export const skills = [
   {
     title: "Shadcn UI",
     icon: IconKeys.shadcn,
+  },
+  {
+    title: "Node Js",
+    icon: IconKeys.nodejs,
   },
   {
     title: "Mongo Db",
