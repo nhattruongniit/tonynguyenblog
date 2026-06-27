@@ -1,11 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Gallery from '../components/Gallery.astro';
+import { BRAND_QUOTE } from '../utils/brand';
 ---
 
 <BaseLayout 
   title="Giới thiệu" 
-  description="Tony Nguyen | Lập trình viên Front End React"
+  description="Tony Nguyen | Mentor Frontend doanh nghiệp với AI"
   image='https://www.tonynguyen.me/assets/about-me.webp'
 	url='https://www.tonynguyen.me/about'
 >
@@ -21,6 +22,7 @@ import Gallery from '../components/Gallery.astro';
                 <a href="https://www.linkedin.com/in/truong-nguyen-7898834b/" target="_blank"> Linkedin</a> | 
                 <a href="https://github.com/nhattruongniit" target="_blank"> Github</a>
             </p>
+            <blockquote class="brand-quote about-quote">{BRAND_QUOTE}</blockquote>
             <p class="tagline mt-4">Tôi là lập trình viên front-end với niềm đam mê tạo ra giao diện người dùng đẹp mắt và hiệu quả.
               Tôi có kinh nghiệm làm việc với React, Typescript/Javascript và Tailwind CSS. Tôi luôn tìm cách học công nghệ mới và nâng cao kỹ năng của mình.
             </p>
@@ -99,6 +101,11 @@ import Gallery from '../components/Gallery.astro';
 
   .about_hero .tagline {
     font-size: 1rem;
+  }
+
+  .about-quote {
+    margin-inline: auto;
+    text-align: left;
   }
 
 	img {

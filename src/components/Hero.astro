@@ -1,17 +1,21 @@
 ---
 interface Props {
 	title: string;
+	quote?: string;
+	bio?: string;
 	tagline?: string;
 	align?: 'start' | 'center';
 }
 
-const { align = 'center', tagline, title } = Astro.props;
+const { align = 'center', quote, bio, tagline, title } = Astro.props;
 ---
 
 <div class:list={['hero stack gap-4', align]}>
-	<div class="stack gap-2">
+	<div class="stack gap-3">
 		<h1 class="title">{title}</h1>
-		{tagline && <p class="tagline">{tagline}</p>}
+		{quote && <blockquote class="hero-quote">{quote}</blockquote>}
+		{bio && <p class="bio">{bio}</p>}
+		{!quote && tagline && <p class="tagline">{tagline}</p>}
 	</div>
 	<slot />
 </div>
@@ -20,13 +24,14 @@ const { align = 'center', tagline, title } = Astro.props;
 	.hero {
 		font-size: var(--text-lg);
 		text-align: center;
-		/* width: 40ch; */
 		margin: 0 auto;
 	}
 
 	.title,
- {
-		max-width: 37ch;
+	.hero-quote,
+	.bio,
+	.tagline {
+		max-width: 42ch;
 		margin-inline: auto;
 	}
 
@@ -35,8 +40,24 @@ const { align = 'center', tagline, title } = Astro.props;
 		color: var(--gray-0);
 	}
 
+	.hero-quote {
+		font-family: var(--font-brand);
+		font-size: var(--text-lg);
+		font-weight: 600;
+		font-style: normal;
+		line-height: 1.4;
+		letter-spacing: -0.02em;
+		color: var(--gray-0);
+		padding-inline-start: 1rem;
+		border-inline-start: 0.25rem solid var(--accent-regular);
+		margin: 0;
+	}
+
+	.bio,
 	.tagline {
 		font-size: 1rem;
+		color: var(--gray-300);
+		line-height: 1.6;
 	}
 
 	@media (min-width: 50em) {
@@ -49,12 +70,19 @@ const { align = 'center', tagline, title } = Astro.props;
 		}
 
 		.start .title,
+		.start .hero-quote,
+		.start .bio,
 		.start .tagline {
 			margin-inline: unset;
 		}
 
 		.title {
 			font-size: var(--text-5xl);
+		}
+
+		.hero-quote {
+			font-size: var(--text-xl);
+			max-width: 38ch;
 		}
 	}
 </style>

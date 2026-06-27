@@ -15,6 +15,7 @@ import Card from '../components/Card.astro';
 
 import { getBlogWorks } from '../utils/blog';
 import { getCourseWorks } from '../utils/course';
+import { BRAND_QUOTE } from '../utils/brand';
 
 // data
 const blogWorks = (await getBlogWorks()).slice(0, 4);
@@ -27,7 +28,8 @@ const courseWorks = await getCourseWorks();
 			<header class="hero">
 				<Hero
 					title="Xin chào, tôi là Tony Nguyen"
-					tagline="Tôi là một Lead Front-End Developer với hơn 10 năm kinh nghiệm trong việc xây dựng các ứng dụng web hiệu suất cao. Có thành tích đã được chứng minh trong việc dẫn dắt nhóm, tối ưu hóa hiệu suất và hướng dẫn."
+					quote={BRAND_QUOTE}
+					bio="Lead Front-End Developer với hơn 10 năm kinh nghiệm xây dựng ứng dụng web hiệu suất cao. Tôi dẫn dắt nhóm, tối ưu hiệu suất và mentor lập trình viên làm việc trong môi trường doanh nghiệp."
 					align="start"
 				>
 					<div class="roles">
@@ -186,9 +188,14 @@ const courseWorks = await getCourseWorks();
 	.section-course {
 		justify-self: center;
 		text-align: center;
-		max-width: 100ch;
+		max-width: 65ch;
 		font-size: var(--text-md);
 		color: var(--gray-300);
+	}
+
+	.section-course .brand-quote {
+		margin-inline: auto;
+		text-align: left;
 	}
 
 	@media (min-width: 50em) {
