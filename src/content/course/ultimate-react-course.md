@@ -1,19 +1,19 @@
 ---
-title: 'Ultimate 1:1 React Course'
+title: 'Khóa học React 1:1'
 publishDate: 2025-01-02
-description: 'Tony Nguyen | Ultimate 1:1 React Tony Course'
+description: 'Tony Nguyen | Khóa học React 1:1 cùng Tony'
 author: 'Tony Nguyen'
 img: '/assets/react-course.webp'
-img_alt: 'Ultimate React Tony Course'
+img_alt: 'Khóa học React cùng Tony'
 path: '/course/ultimate-react-course'
-caption: 'Become a React Developer. Learn React, Hooks, Redux, React Routing, Best Practices, and more!'
+caption: 'Trở thành React Developer. Học React, Hooks, Redux, React Routing, Best Practices và nhiều hơn nữa!'
 tags: ["web"]
 ---
-<div class="text-center">🚀 Welcome to the Ultimate 1:1 React Development Course! 🚀</div>
-<h4 class="text-center my-8">Master React: Build Real-World Applications <br /> with Confidence</h4>
+<div class="text-center">🚀 Chào mừng bạn đến với Khóa học Phát triển React 1:1 🚀</div>
+<h4 class="text-center my-8">Thành thạo React: Xây dựng ứng dụng thực tế <br /> với sự tự tin</h4>
 
 <div class="flex items-center justify-center flex-col md:flex-row">
-  <span>Contact me to get started!</span>
+  <span>Liên hệ với tôi để bắt đầu!</span>
   <div class="ml-2">
     <a href="https://www.facebook.com/nhattruongniit" target="_blank" class="text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2">
       <svg class="w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
@@ -26,7 +26,7 @@ tags: ["web"]
         <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
         <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
       </svg>
-      Send Me a Message
+      Gửi tin nhắn cho tôi
     </a>
   </div>
 </div>
@@ -34,107 +34,97 @@ tags: ["web"]
 <br />
 
 <div>
-  Are you ready to transform your web development skills and become a pro React developer? 
-  In this personalized <b>1:1 mentorship</b> program, you’ll go beyond tutorials and master React 
-  through hands-on learning, practical projects, and real-world problem-solving.
+  Bạn đã sẵn sàng nâng tầm kỹ năng phát triển web và trở thành lập trình viên React chuyên nghiệp chưa?
+  Trong chương trình <b>mentorship 1:1</b> cá nhân hóa này, bạn sẽ vượt xa các tutorial và thành thạo React
+  thông qua học tập thực hành, dự án thực tế và giải quyết vấn đề trong môi trường làm việc thật.
 </div>
 
 <div class="w-full md:w-[70ch] mx-auto mt-10">
-  <img class="rounded-xl w-full" src="/assets/react-course.webp" alt="Tony React Course" width="100%" height="100%" />
+  <img class="rounded-xl w-full" src="/assets/react-course.webp" alt="Khóa học React của Tony" width="100%" height="100%" />
 </div>
 
 <div class="mt-10">
   <blockquote class="heading-5">
-    Why Choose This Course?
+    Tại sao nên chọn khóa học này?
   </blockquote>
   <div class="my-6 ml-3">
-    ✅ Personalized Guidance: Tailored to your pace and learning style. <br />
-    ✅ Practical Focus: Build real-world applications from scratch. <br />
-    ✅ Expert Mentor: Learn directly from an experienced React developer with a deep understanding of front-end development. <br /> 
-    ✅ Career-Ready Skills: Gain the confidence to tackle professional React projects. <br />
+    ✅ Hướng dẫn cá nhân hóa: Phù hợp với tốc độ và phong cách học của bạn. <br />
+    ✅ Tập trung thực hành: Xây dựng ứng dụng thực tế từ đầu. <br />
+    ✅ Mentor chuyên gia: Học trực tiếp từ lập trình viên React giàu kinh nghiệm với kiến thức sâu về front-end. <br />
+    ✅ Kỹ năng sẵn sàng cho công việc: Tự tin đảm nhận các dự án React chuyên nghiệp. <br />
   </div>
 </div>
 
 <div class="mt-5">
   <blockquote class="heading-5">
-    What You’ll Learn
+    Bạn sẽ học được gì
   </blockquote>
   <div class="my-6 ml-3">
-    🔹 The fundamentals of React: JSX, components, and state. <br />
-    🔹 Advanced topics: hooks, context API, and performance optimization. <br />
-    🔹 How to fetch and display data using APIs. <br />
-    🔹 Efficient state management and routing for multi-page apps. <br />
-    🔹 Codebase consolidation: Best practices for organizing and structuring with <b>Atomic Design</b>.
+    🔹 Kiến thức cơ bản về React: JSX, components và state. <br />
+    🔹 Chủ đề nâng cao: hooks, context API và tối ưu hiệu suất. <br />
+    🔹 Cách fetch và hiển thị dữ liệu từ API. <br />
+    🔹 Quản lý state và routing hiệu quả cho ứng dụng nhiều trang. <br />
+    🔹 Tổ chức codebase: Best practices để sắp xếp và cấu trúc với <b>Atomic Design</b>.
   </div>
 </div>
 
 <div class="mt-5">
   <blockquote class="heading-5">
-    What You’ll Achieve
+    Bạn sẽ đạt được gì
   </blockquote>
   <div class="my-6 ml-3">
-    🌟 Master React fundamentals and build interactive UIs. <br />
-    🌟 Learn state management, routing, and advanced concepts like performance optimization. <br />
-    🌟 Work on real-world projects to create a portfolio that stands out.  <br />
-    🌟 Get personalized feedback to ensure you're industry-ready.
+    🌟 Thành thạo kiến thức cơ bản React và xây dựng UI tương tác. <br />
+    🌟 Học quản lý state, routing và các khái niệm nâng cao như tối ưu hiệu suất. <br />
+    🌟 Làm việc trên dự án thực tế để tạo portfolio nổi bật. <br />
+    🌟 Nhận phản hồi cá nhân hóa để sẵn sàng cho môi trường làm việc.
   </div>
 </div>
 
 <div class="mt-5">
   <blockquote class="heading-5">
-    Who Is This Course For?
+    Khóa học dành cho ai?
   </blockquote>
   <div class="my-6 ml-3">
-    💡 Beginners looking to enter front-end development. <br />
-    💡 Developers wanting to transition into React or boost their skills. <br />
-    💡 Anyone eager to create stunning, interactive web applications.
+    💡 Người mới muốn bước vào lĩnh vực phát triển front-end. <br />
+    💡 Lập trình viên muốn chuyển sang React hoặc nâng cao kỹ năng. <br />
+    💡 Bất kỳ ai muốn tạo ứng dụng web đẹp mắt và tương tác.
   </div>
-</div>
-
-<b>📅 Let’s Get Started!</b>
-<div class="mt-2">
-  Whether you're starting from scratch or want to level up your front-end 
-  development skills, this course is your fast track to React mastery. Let’s code your future together!
 </div>
 
 <div class="mt-10">
-  <h4 class="text-center my-8">React Course Highlights</h4>
+  <h4 class="text-center my-8">Điểm nổi bật của khóa học React</h4>
 </div>
 
 <div class="w-full md:w-[50ch] mx-auto mt-10">
-  <img class="rounded-xl w-full" src="/assets/highlight-react-course.webp" alt="Highlight React Course" width="100%" height="100%" />
+  <img class="rounded-xl w-full" src="/assets/highlight-react-course.webp" alt="Điểm nổi bật khóa học React" width="100%" height="100%" />
 </div>
 
 <div class="w-80ch] mx-auto mt-10 leading-8">
-  🌟 Exercises designed based on interview questions from major companies. <br />
-  🌟 Mock Interviews <br />
-  🌟 CV Review <br />
-  🌟 Mock React Coding Interviews <br />
-  🌟 Lead in Web Performance Optimization <br />
-  🌟 Learn advanced ReactJS techniques to optimize web performance and state management.<br />
-  🌟 Build 4-5 mini-apps as profile showcases, inspired by real-world applications.<br />
-  🌟 Implement React Best Practice Structures <br />
+  🌟 Bài tập được thiết kế dựa trên câu hỏi phỏng vấn từ các công ty lớn. <br />
+  🌟 Phỏng vấn thử (Mock Interviews) <br />
+  🌟 Review CV <br />
+  🌟 Phỏng vấn coding React thử <br />
+  🌟 Tối ưu hiệu suất web <br />
+  🌟 Học các kỹ thuật ReactJS nâng cao để tối ưu hiệu suất web và quản lý state.<br />
+  🌟 Xây dựng 4-5 mini-app làm portfolio, lấy cảm hứng từ ứng dụng thực tế.<br />
+  🌟 Triển khai cấu trúc React Best Practice <br />
 </div>
 
 <div class="mt-10">
-  <h4 class="text-center my-8">Milestones for 1:1 React Development Mentorship</h4>
-  <div class="my-6 ml-3">
-    💬 “Tony’s course is the best investment I’ve made in my coding journey. 
-    His personalized approach and real-world projects helped me understand React like never 
-    before.”<br />
-  </div>
+  <h4 class="text-center my-8">Lộ trình Mentorship Phát triển React 1:1</h4>
+
 </div>
 
 <div class="mt-5">
   <blockquote class="heading-5">
-    Milestone 1: Introduction to React Basics
+    Milestone 1: Giới thiệu kiến thức cơ bản về React
   </blockquote>
   <div class="my-6 ml-3">
     <ul class="blog-disc">
-      <li>What is React? Why React? </li>
-      <li>Setting up the development environment (Node.js, npm, VSCode).</li>
-      <li>JSX: Writing HTML in JavaScript, State & Props.</li>
-      <li>useState hook: What, why, and how.</li>
+      <li>React là gì? Tại sao nên dùng React?</li>
+      <li>Thiết lập môi trường phát triển (Node.js, npm, VSCode).</li>
+      <li>JSX: Viết HTML trong JavaScript, State & Props.</li>
+      <li>Hook useState: Là gì, tại sao và cách dùng.</li>
       <li>Form, Conditional Rendering, List & Keys</li>
       <li>Composition Components, Drilling Props, Lifting State Up</li>
     </ul>
@@ -153,7 +143,7 @@ tags: ["web"]
       <li>Context hooks: useContext.</li>
       <li>Ref hooks: useRef, forwardRef, useImperativeRef.</li>
       <li>Performance hooks: memo, useMemo, useCallback, useDefferedValue.</li>
-      <li>Other hooks: useTransition, custom Hooks.</li>
+      <li>Hooks khác: useTransition, custom Hooks.</li>
     </ul>
   </div>
 </div>
@@ -164,35 +154,35 @@ tags: ["web"]
   </blockquote>
   <div class="my-6 ml-3">
     <ul class="blog-disc">
-      <li>Introduction React Router</li>
-      <li>Route parameters and nested routes</li>
-      <li>Types of Router</li>
-      <li>Authorization: Private Route, Public Route, Role Route.</li>
+      <li>Giới thiệu React Router</li>
+      <li>Route parameters và nested routes</li>
+      <li>Các loại Router</li>
+      <li>Phân quyền: Private Route, Public Route, Role Route.</li>
     </ul>
   </div>
 </div>
 
 <div class="mt-10">
   <blockquote class="heading-5">
-    Milestone 4: State Management Redux
+    Milestone 4: Quản lý State với Redux
   </blockquote>
   <div class="my-6 ml-3">
     <ul class="blog-disc">
-      <li>Introduction & Why you need State Management.</li>
-      <li>Components of Redux: store, state, dispatch, actions,....</li>
+      <li>Giới thiệu & Tại sao cần State Management.</li>
+      <li>Các thành phần của Redux: store, state, dispatch, actions,....</li>
       <li>Middleware: Redux Thunk.</li>
-      <li>Performance redux: redux connect & redux hook</li>
+      <li>Tối ưu Redux: redux connect & redux hook</li>
     </ul>
   </div>
 </div>
 
 <div class="mt-10">
   <blockquote class="heading-5">
-    Milestone 5: Advanced React
+    Milestone 5: React nâng cao
   </blockquote>
   <div class="my-6 ml-3">
     <ul class="blog-disc">
-      <li>Logger: Build Error Boundaries.</li>
+      <li>Logger: Xây dựng Error Boundaries.</li>
       <li>Code Splitting & Lazy Loading.</li>
       <li>Axios Interceptor: Access & Refresh Token</li>
       <li>Dynamic Layout & Components.</li>
@@ -202,17 +192,17 @@ tags: ["web"]
 
 <div class="mt-10">
   <blockquote class="heading-5">
-    Milestone 6: Lighthouse & Web Performance Optimization
+    Milestone 6: Lighthouse & Tối ưu hiệu suất web
   </blockquote>
   <div class="my-6 ml-3">
     <ul class="blog-disc">
-      <li>What is Lighthouse, and why is it essential for modern web development?</li>
-      <li>Understanding Core Web Vitals: LCP, FCP, CLS, TBT.</li>
+      <li>Lighthouse là gì và tại sao nó quan trọng với phát triển web hiện đại?</li>
+      <li>Hiểu Core Web Vitals: LCP, FCP, CLS, TBT.</li>
       <li>Critical Rendering Path</li>
-      <li>Techniques to reduce server response times.</li>
-      <li>Image optimization.</li>
-      <li>Font performance improvements</li>
-      <li>Defer or lazy-load non-critical JS.</li>
+      <li>Kỹ thuật giảm thời gian phản hồi của server.</li>
+      <li>Tối ưu hình ảnh.</li>
+      <li>Cải thiện hiệu suất font</li>
+      <li>Defer hoặc lazy-load JS không quan trọng.</li>
     </ul>
   </div>
 </div>
